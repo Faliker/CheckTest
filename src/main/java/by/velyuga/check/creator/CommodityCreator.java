@@ -3,10 +3,9 @@ package main.java.by.velyuga.check.creator;
 import main.java.by.velyuga.check.entity.Commodity;
 import main.java.by.velyuga.check.entity.DiscountCard;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.*;;
+import java.nio.file.Paths;
+import java.nio.file.Path;
 
 public class CommodityCreator {
     Commodity commodity;
@@ -24,7 +23,9 @@ public class CommodityCreator {
 
     public DiscountCard readCard(int userCardId) {
         DiscountCard card = null;
-        File connectToCard = new File("./src/main/resources/discountCardList.txt");
+        String relativePathCard = "src\\main\\resources\\discountCardList.txt";
+        Path path = Paths.get(relativePathCard).toAbsolutePath();
+        File connectToCard = new File(path.toString());
         try (BufferedReader readCard = new BufferedReader(new FileReader(connectToCard))) {
             String line;
             while ((line = readCard.readLine()) != null) {
@@ -46,7 +47,9 @@ public class CommodityCreator {
     }
 
     public Commodity readCommodity() {
-        File connectToCommodity = new File("./src/main/resources/commodityList.txt");
+        String relativePathCommodity = "src\\main\\resources\\commodityList.txt";
+        Path path = Paths.get(relativePathCommodity).toAbsolutePath();
+        File connectToCommodity = new File(path.toString());
         try (BufferedReader readCommodity = new BufferedReader(new FileReader(connectToCommodity))) {
             String line;
             findProduct = false;
