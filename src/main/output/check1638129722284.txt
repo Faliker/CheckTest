@@ -1,10 +1,10 @@
 *************************************
-*             ТЦ CASTLE             *
+*             SC CASTLE             *
 *    city Minsk, street Main 34     *
 *      tel: 66-666-666-676-666      *
 
 *          cashier date: 28:10:2021 *
-*                  time: 7:47:0   *
+*                  time: 11:2:2   *
 -------------------------------------
 QTY    DESCRIPTION      PRISE   TOTAL
  6            Eggs      3,01    18,06 

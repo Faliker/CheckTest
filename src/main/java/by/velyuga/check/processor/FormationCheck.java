@@ -13,7 +13,7 @@ public final class FormationCheck {
         Calendar calendar = Calendar.getInstance();
         StringBuilder strCheck = new StringBuilder();
         strCheck.append("*************************************\n");
-        strCheck.append("*             ТЦ CASTLE             *\n");
+        strCheck.append("*             SC CASTLE             *\n");
         strCheck.append("*    city Minsk, street Main 34     *\n");
         strCheck.append("*      tel: 66-666-666-676-666      *\n\n");
         strCheck.append("*          cashier date: " + calendar.get(Calendar.DAY_OF_MONTH) + ":" +
