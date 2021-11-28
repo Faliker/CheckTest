@@ -1,0 +1,10 @@
+1/Eggs/3.01
+2/Rice/1.67
+3/Bread/0.87/sale
+4/Milk/1.52
+5/Cottage cheese/2.89
+6/Buckwheat/1.6
+7/Pasta/4.56/sale
+8/Potato chips/3.89
+9/Hot dog/2.3
+10/Fruit salade/3.29

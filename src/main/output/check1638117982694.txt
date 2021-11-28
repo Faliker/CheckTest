@@ -1,0 +1,24 @@
+*************************************
+*             ТЦ CASTLE             *
+*    city Minsk, street Main 34     *
+*      tel: 66-666-666-676-666      *
+
+*          cashier date: 28:10:2021 *
+*                  time: 7:46:22   *
+-------------------------------------
+QTY    DESCRIPTION      PRISE   TOTAL
+ 6            Eggs      3,01    18,06 
+ 3            Rice      1,67     5,01 
+ 9            Milk      1,52    13,68 
+ 1  Cottage cheese      2,89     2,89 
+ 8       Buckwheat      1,60    12,80 
+ 6           Pasta      4,56    27,36 
+ promotional! Discount  -10%:   -2,74
+ 3    Potato chips      3,89    11,67 
+ 2         Hot dog      2,30     4,60 
+ 9    Fruit salade      3,29    29,61 
+-------------------------------------
+-------------------------------------
+TOTAL:                         122.94 
+CARD DISCOUNT:                   6.15 
+TOTAL PAYABLE:                 116.79 
